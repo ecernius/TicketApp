@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(73, 117, 117);
+ 
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+img{
+  width:200px;
+  height:200px;
+  margin: 20px;
+}
+img:hover{
+  cursor: pointer;
+width: 250px;
+  height: 250px;
+  transition: 0.5s;
+}
+
+.App{
+  padding-top: 20px;
+}
+
+.inps{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  
+}
+.login{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button{
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  margin-left: 50px;
+}
+button:hover{
+  color: black;
+  background: white;
+  transform: scale(1.2);
+  transition: 0.5s;
+  cursor: pointer;
+}
+input{
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+}
+.userInfo{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.movie{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+    padding: 30px;
+}
+h2{
+  margin: 5px;
+  margin-left: 20px ;
+}
+.seats{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  justify-content: center;
+  
+}
+.seat{
+  background-color: crimson;
+  margin: 5px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.seat:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.money{
+  margin-left: 100px;
+}
+.buy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border {
+  border: 2px solid black;
+  background-color: yellowgreen;
+  
+}
